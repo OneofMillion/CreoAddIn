@@ -1,0 +1,7 @@
+name LeoCreoAddin
+startup dll 
+allow_stop TRUE 
+exec_file C:\Program Files\Leo\LeoCreoAddin\plugin\LeoCreoAddin.dll
+text_dir  C:\Program Files\Leo\LeoCreoAddin\plugin\text
+revision   18.0
+end

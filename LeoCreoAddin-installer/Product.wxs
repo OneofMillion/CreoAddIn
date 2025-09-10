@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://wixtoolset.org/schemas/v4/wxs">
+  <Package
+    Name="Leo AI Creo Addin"
+    Version="1.0.0.0"
+    Manufacturer="Opensource"
+    UpgradeCode="eb212205-d18e-41f4-bdd9-c398954d6823"
+    InstallerVersion="500"
+    Compressed="yes"
+    Scope="perMachine"
+    >
+
+    <MajorUpgrade DowngradeErrorMessage="A newer version of [ProductName] is already installed." />
+    <MediaTemplate EmbedCab="yes" />
+
+    <ComponentGroup Id="ProductComponents">
+      <ComponentRef Id="cmp_AddinDll" />
+      <ComponentRef Id="cmp_LeoCreoAddinTxt" />
+      <ComponentRef Id="cmp_ResourceFiles" />
+      <ComponentRef Id="cmp_RibbonFiles" />
+      <ComponentRef Id="cmp_ProkDat" />
+    </ComponentGroup>
+
+    <Feature Id="ProductFeature" Title="Leo AI Creo Addin" Level="1">
+      <ComponentGroupRef Id="ProductComponents" />
+    </Feature>
+
+    <!-- 64-bit Program Files -->
+    <StandardDirectory Id="ProgramFiles64Folder">
+      <Directory Id="LEO" Name="Leo">
+        <Directory Id="LeoCreoAddin" Name="LeoCreoAddin">
+          <Directory Id="INSTALLFOLDER" Name="plugin">
+            <Component Id="cmp_AddinDll" Guid="{5ed64d14-ae06-4914-b0e4-5d7c2c6ebe99}">
+                <File Id="LeoCreoAddinDll" Source="LeoCreoAddin.dll" KeyPath="yes" />
+            </Component>
+
+            <Directory Id="TextFolder" Name="text">
+              <Component Id="cmp_LeoCreoAddinTxt" Guid="{8d1c071f-70e3-4dc0-a425-34a992976eb3}">
+                <File Id="fil_LeoCreoAddinTxt" Source="text\LeoCreoAddin.txt" KeyPath="yes" />
+              </Component>
+
+              <Directory Id="ResourceFolder" Name="resource">
+                <Component Id="cmp_ResourceFiles" Guid="{98c6d187-f824-460c-ae5a-2c0d5154d5eb}">
+                  <File Id="fil_FindComponentPng" Source="text\resource\findComponent.png" KeyPath="yes"/>
+                  <File Id="fil_LeoAppPng" Source="text\resource\LeoApp.png" KeyPath="no"/>
+                </Component>
+              </Directory>
+
+              <Directory Id="RibbonFolder" Name="ribbon">
+                <Component Id="cmp_RibbonFiles" Guid="{5189d815-5750-470a-a6a2-eae9033fbede}">
+                  <File Id="fil_LeoCreoAddinRbn" Source="text\ribbon\LeoCreoAddin.rbn" KeyPath="yes" />
+                </Component>
+              </Directory>
+
+            </Directory>
+          </Directory>
+        </Directory>
+      </Directory>
+    </StandardDirectory>
+
+    <!-- Creo Folder -->
+    <StandardDirectory Id="ProgramFiles64Folder">
+      <Directory Id="PTCFolder" Name="PTC">
+        <Directory Id="CreoFolder" Name="Creo 11.0.2.0">
+          <Directory Id="CommonFiles" Name="Common Files">
+            <Directory Id="CreoTextFolder" Name="text">
+              <Component Id="cmp_ProkDat" Guid="{880492e3-e6f3-495a-ad0a-6bb4a18e4cc6}">
+                <File Id="fil_ProkDat" Source="protk.dat" />
+              </Component>
+            </Directory>
+          </Directory>
+        </Directory>
+      </Directory>
+    </StandardDirectory>
+
+  </Package>
+</Wix>

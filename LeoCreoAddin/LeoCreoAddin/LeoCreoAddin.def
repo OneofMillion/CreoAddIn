@@ -1,0 +1,6 @@
+; LeoCreoAddin.def : Declare the module parameters for the DLL.
+
+LIBRARY
+
+EXPORTS
+; This can be an explicit export.

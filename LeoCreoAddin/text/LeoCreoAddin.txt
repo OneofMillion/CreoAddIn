@@ -1,0 +1,139 @@
+﻿LeoCreoAddin
+Leo Menu
+Leo Menu
+#
+
+OpenLeoMenuItem
+Open Leo
+Open Leo
+#
+
+OpenLeoMenuItemtips
+Open Leo Tips
+Open Leo Tips
+#
+
+FindComponentMenuItem
+Find Component
+Find Component
+#
+
+FindComponentMenuItemtips
+Find Component Tips
+Find Component Tips
+#
+
+MainMenu
+Main Menu
+Main Menu
+#
+
+MainMenu
+Main Menu
+Main Menu
+#
+
+MainMenuItem
+Main Menu Item (Right-Click Menu)
+Main Menu Item (Right-Click Menu)
+#
+
+MainMenuItemtips
+Main Menu Item (Right-Click Menu Also Pops Up) Tips
+Main Menu Item (Right-Click Menu Also Pops Up) Tips
+#
+
+CheckButtonMenu
+CheckButton Menu
+CheckButton Menu
+#
+
+CheckButtonMenuItem
+CheckButton Item, I Don't Know How to Add an Icon
+CheckButton Item, I Don't Know How to Add an Icon
+#
+
+CheckButtonMenuItemtips
+CheckButton Item, I Don't Know How to Add an Icon
+CheckButton I have n items and don't know how to add an icon.
+#
+
+CheckButtonGroupDescription
+CheckButtonGroupDescription Group
+CheckButtonGroupDescription Group
+#
+
+RadioButtonMenu
+RadioButton Menu
+RadioButton Menu
+#
+
+RadioButtonGroup
+RadioButtonGroup Group haha
+RadioButtonGroup Group haha
+#
+
+RadioButtonGroupDescription
+RadioButtonGroupDescription Group
+RadioButtonGroupDescription Group
+#
+
+RadioButton onMenu1
+RadioButton item 1
+RadioButton item 1
+#
+
+RadioButtonMenuItem1
+RadioButton Item 1 Label
+RadioButton Item 1 Label
+#
+
+RadioButtonMenuItem1tips
+RadioButton item 1
+RadioButton item 1
+#
+
+RadioButtonMenu2
+RadioButton item 2
+RadioButton item 2
+#
+
+RadioButtonMenuItem2
+RadioButton Item 2 Label
+RadioButton Item 2 Label
+#
+
+RadioButtonMenuItem2tips
+RadioButton item 2
+RadioButton item 2
+#
+
+Rad ioButtonMenu3
+RadioButton item 3
+RadioButton item 3
+#
+
+RadioButtonMenuItem3
+RadioButton Item 3 Label
+RadioButton Item 3 Label
+#
+
+RadioButtonMenuItem3tips
+RadioButton item 3
+RadioButton item 3
+#
+
+RadioButtonMenu4
+RadioButton item 4
+RadioButton item 4
+#
+
+RadioButtonMenuItem4
+RadioButton Item 4 Label
+RadioButton Item 4 Label
+#
+
+RadioButtonMenuItem4tips
+RadioButton item 4
+RadioButton item 4
+#

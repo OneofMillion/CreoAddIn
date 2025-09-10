@@ -1,0 +1,15 @@
+# Leo AI Configuration File
+# Copy this file to your Leo app data directory and rename to local.properties
+
+# Port for Leo desktop app (default: 4000)
+port=4000
+
+# Note: Leo app installation path is hardcoded to C:\Program Files\Leo\Leo.exe
+
+# Optional: Custom timeout for HTTP requests (in milliseconds)
+# Default: 5000
+# timeout=5000
+
+# Optional: Custom host for Leo desktop app
+# Default: localhost
+# host=localhost

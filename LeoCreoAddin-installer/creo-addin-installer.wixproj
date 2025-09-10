@@ -1,0 +1,12 @@
+﻿<Project Sdk="WixToolset.Sdk/6.0.0">
+  <PropertyGroup>
+    <OutputType>Package</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <OutputName>creo_addin_installer</OutputName>
+    <WixToolsetOutputType>Bundle</WixToolsetOutputType>
+    <Platform>x64</Platform>
+  </PropertyGroup>
+  <ItemGroup>
+    <WixSource Include="Product.wxs" />
+  </ItemGroup>
+</Project>
