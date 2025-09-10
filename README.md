@@ -186,8 +186,8 @@ The add-in provides several HTTP endpoints for external communication:
 
 ### Required Reference DLLs
 The following files from Creo Pro/TOOLKIT are required:
-( These files are originally located in C:\Program Files\PTC\Creo 11.0.2.0\Common Files.
-But I moved it to LeoCreoAddin\LeoCreoAddin\Lib so that I can build this project wuiout AAAAAAAAAAAAAAAAAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa when I've built this prject,)
+( These files are originally located in C:\Program Files\PTC\Creo 11.0.2.0\Common Files\protoolkit.
+But I moved it to LeoCreoAddin\LeoCreoAddin\Lib so that I can build this project without installing Creo.)
 - `protk_dllmd_NU.lib`
 - `ucore.lib`
 - `udata.lib`
